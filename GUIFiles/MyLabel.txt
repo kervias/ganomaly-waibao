@@ -1,0 +1,26 @@
+
+class MyLabel(QtWidgets.QLabel):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.myWidth = 780
+        self.myHeight = 800
+
+
+    def getWidth(self):
+        return self.myWidth
+
+    def getHeight(self):
+        return self.myHeight
+
+    def setSignal(self, signal):
+        self.signal = signal
+
+
+    def resizeEvent(self, event=None):
+        self.myWidth = self.width()
+        self.myHeight = self.height()
+        self.signal.emit()
+
+
+
+C:\Users\kervias\Documents\Apowersoft\Apowersoft Online Screen Recorder
