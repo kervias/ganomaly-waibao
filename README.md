@@ -65,8 +65,6 @@ https://groups.inf.ed.ac.uk/vision/CAVIAR/CAVIARDATA1/
 
 ## 运行示例
 
-![](./docs/img/3.png)
-
 ![](./docs/img/4.png)
 
 ![](./docs/img/5.png)
